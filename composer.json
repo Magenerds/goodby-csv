@@ -1,9 +1,13 @@
 {
-    "name": "handcraftedinthealps/goodby-csv",
+    "name": "magenerds/goodby-csv",
     "description": "CSV import/export library",
     "type": "library",
-    "keywords": ["csv", "import", "export"],
-    "homepage": "https://github.com/handcraftedinthealps/goodby-csv",
+    "keywords": [
+        "csv",
+        "import",
+        "export"
+    ],
+    "homepage": "https://github.com/Magenerds/goodby-csv",
     "license": "MIT",
     "authors": [
         {
@@ -22,10 +26,15 @@
             "name": "Handcrafted in the alps contributors",
             "homepage": "https://github.com/handcraftedinthealps/goodby-csv/graphs/contributors",
             "role": "Contributors"
+        },
+        {
+            "name": "Simon Sippert",
+            "homepage": "https://www.techdivision.com/",
+            "role": "Contributors"
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.*",
         "symfony/polyfill-mbstring": "^1.0"
     },
     "require-dev": {
